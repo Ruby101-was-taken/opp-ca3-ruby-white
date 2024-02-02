@@ -64,7 +64,7 @@ public class CA3_Question5 {
             } else if (command.equals("help")) {
                 help();
             } else if (command.equals("next")) {
-                System.out.println("sorry link, I can do next, come back when you're a little ... mmmmmmmm. richer");
+                System.out.println("sorry link, I can't do next, come back when you're a little ... mmmmmmmm. richer");
             }
 
         }
