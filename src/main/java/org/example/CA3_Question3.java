@@ -37,7 +37,7 @@ public class CA3_Question3 {
         // 95 _
         //97-122 a-z
 
-        int lineNum = -1;
+        int lineNum = 0;
 
         for(String line : lines){
             lineNum++;
