@@ -61,7 +61,6 @@ public class CA3_Question10 {
             connections.put(cityNames[i], dist);
         }
 
-        printShit(connections);
 
         // the above code creates the connections - not reading from a file since the file was not included in sample zip :3
 
