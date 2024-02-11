@@ -77,7 +77,7 @@ public class CA3_Question10 {
 
         HashMap<String, Integer> shortestKnownDistance = new HashMap<>();
 
-        while(priorityQueue.size()!=0){ //I literally did the pseudocode exactly why doesn't this work
+        while(priorityQueue.size()!=0){ //I literally did the pseudocode exactly why doesn't this work (I fixed it :D)
 
 
             DistanceTo smallest = priorityQueue.poll();
