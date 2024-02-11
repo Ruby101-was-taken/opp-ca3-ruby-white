@@ -5,6 +5,11 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.*;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Ca3_Question1 {

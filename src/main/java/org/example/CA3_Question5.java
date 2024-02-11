@@ -3,6 +3,11 @@ package org.example;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 public class CA3_Question5 {
 
     public static void incorrectFormatting(){

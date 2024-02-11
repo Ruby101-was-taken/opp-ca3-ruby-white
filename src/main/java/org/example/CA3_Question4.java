@@ -6,6 +6,11 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Scanner;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 public class CA3_Question4 {
 
     public static ArrayList<String> readFile(String fileName)

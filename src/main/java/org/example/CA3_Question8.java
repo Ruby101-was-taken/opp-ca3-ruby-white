@@ -3,8 +3,8 @@ package org.example;
 import java.util.*;
 
 /**
- *  Name:
- *  Class Group:
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
  */
 
 

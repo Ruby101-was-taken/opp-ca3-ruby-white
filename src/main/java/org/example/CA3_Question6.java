@@ -2,6 +2,11 @@ package org.example;
 
 import java.util.*;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 public class CA3_Question6
 {
 

@@ -2,6 +2,11 @@ package org.example;
 
 import java.util.*;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 public class CA3_Question10 {
 
     public static void main(String[] args) {
@@ -87,7 +92,13 @@ public class CA3_Question10 {
         }
 
 
-        System.out.println(shortestKnownDistance.get(endPoint));
+        System.out.println("The shortest path from " + startPoint + " to " + endPoint + " is " + shortestKnownDistance.get(endPoint) + ".\n\nThe other distances are: ");
+
+        for(String city : shortestKnownDistance.keySet()){
+            if(!(city.equals(startPoint) || city.equals(endPoint))){
+                System.out.println(city + ": " + shortestKnownDistance.get(city));
+            }
+        }
 
     }
 }

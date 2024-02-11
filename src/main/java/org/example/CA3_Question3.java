@@ -3,6 +3,11 @@ import java.io.FileNotFoundException;
 
 import java.util.*;
 import java.io.File;
+
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
 public class CA3_Question3 {
 
     public static ArrayList<String> readFile(String fileName)

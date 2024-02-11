@@ -5,6 +5,11 @@ import java.util.Deque;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
+ */
+
 public class CA3_Question2 {
 
     public static void main(String[] args) {

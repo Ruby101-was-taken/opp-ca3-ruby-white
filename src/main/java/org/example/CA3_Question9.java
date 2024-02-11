@@ -5,8 +5,8 @@ import java.util.Deque;
 import java.util.Random;
 
 /**
- *  Name:
- *  Class Group:
+ *  Name: Ruby White :3
+ *  Class Group: GD2B
  */
 
 /*
