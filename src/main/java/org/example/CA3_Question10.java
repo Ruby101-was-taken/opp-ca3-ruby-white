@@ -3,6 +3,7 @@ package org.example;
 import java.util.*;
 
 public class CA3_Question10 {
+
     public static void main(String[] args) {
         HashMap<String, HashSet<DistanceTo>> connections = new HashMap<>(); //uses hashset since treeset doesn't allow duplicates which are needed I believe
 
@@ -50,7 +51,7 @@ public class CA3_Question10 {
         };
 
         String[] cityNames = {"Pendleton", "Pierre", "Pueblo", "Phoenix", "Peoria", "Pittsburgh", "Pensacola", "Princeton"};
-        DistanceTo[][] allDistance = {pensacolaDistances, pierreDistances, puebloDistances, phoenixDistances, peoriaDistances, pittsburghDistances, pensacolaDistances, princetonDistances};
+        DistanceTo[][] allDistance = {pendletonDistances, pierreDistances, puebloDistances, phoenixDistances, peoriaDistances, pittsburghDistances, pensacolaDistances, princetonDistances};
 
         for (int i = 0; i < 8; i++) {
             HashSet<DistanceTo> dist = new HashSet<>();
@@ -60,9 +61,11 @@ public class CA3_Question10 {
             connections.put(cityNames[i], dist);
         }
 
-        // the above code creates the connections - not reading from a file since the file was not included in sample zip
+        printShit(connections);
 
-        String startPoint = "Pendleton", endPoint = "Pierre";
+        // the above code creates the connections - not reading from a file since the file was not included in sample zip :3
+
+        String startPoint = "Pendleton", endPoint = "Princeton";
 
         PriorityQueue<DistanceTo> priorityQueue = new PriorityQueue<>();
 
@@ -71,6 +74,8 @@ public class CA3_Question10 {
         HashMap<String, Integer> shortestKnownDistance = new HashMap<>();
 
         while(priorityQueue.size()!=0){ //I literally did the pseudocode exactly why doesn't this work
+
+
             DistanceTo smallest = priorityQueue.poll();
 
             if(!shortestKnownDistance.containsKey(smallest.target)){
@@ -80,8 +85,8 @@ public class CA3_Question10 {
                     priorityQueue.add(new DistanceTo(c.target, d + c.distance));
                 }
             }
-            System.out.println("=====");
         }
+
 
         System.out.println(shortestKnownDistance.get(endPoint));
 
@@ -98,6 +103,12 @@ class DistanceTo implements Comparable<DistanceTo> {
         return distance - other.distance;
     }
 
-
+    @Override
+    public String toString() {
+        return "DistanceTo{" +
+                "target='" + target + '\'' +
+                ", distance=" + distance +
+                '}';
+    }
 }
 
