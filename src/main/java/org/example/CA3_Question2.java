@@ -30,7 +30,7 @@ public class CA3_Question2 {
 
         int canvas[][] = new int[canvasW][canvasH];
 
-        int wallChance = 25; //chance for spot to become a "wall"
+        int wallChance = 50; //chance for spot to become a "wall"
 
         for(int[] y : canvas){ //for loop to set a default value for each point
             for(int x=0; x<y.length; x++){

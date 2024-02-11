@@ -53,7 +53,7 @@ public class CA3_Question4 {
     }
 
     public static void main(String[] args) {
-        ArrayList<String> lines = readFile("stressTest.html");
+        ArrayList<String> lines = readFile("tags_invalid.html");
 
 
         Deque<String> unClosedTags = new ArrayDeque<>();
